@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB6464E72174B421000AC8E3 /* FristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6464E62174B421000AC8E3 /* FristViewController.swift */; };
+		DB6464EF2174B9B0000AC8E3 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */; };
+		DB6464F12174BAAF000AC8E3 /* Intro3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */; };
+		DB6465052174BE95000AC8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6465042174BE93000AC8E3 /* Assets.xcassets */; };
 		DBDAECC621747BF700C114EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECC521747BF700C114EF /* AppDelegate.swift */; };
 		DBDAECC821747BF700C114EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECC721747BF700C114EF /* ViewController.swift */; };
 		DBDAECCB21747BF700C114EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDAECC921747BF700C114EF /* Main.storyboard */; };
 		DBDAECCE21747BF700C114EF /* VisionEcho.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECCC21747BF700C114EF /* VisionEcho.xcdatamodeld */; };
-		DBDAECD021747BFA00C114EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDAECCF21747BFA00C114EF /* Assets.xcassets */; };
 		DBDAECD321747BFA00C114EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDAECD121747BFA00C114EF /* LaunchScreen.storyboard */; };
 		DBDAECDE21747BFA00C114EF /* VisionEchoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECDD21747BFA00C114EF /* VisionEchoTests.swift */; };
 		DBDAECE921747BFA00C114EF /* VisionEchoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECE821747BFA00C114EF /* VisionEchoUITests.swift */; };
@@ -35,12 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB6464E62174B421000AC8E3 /* FristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristViewController.swift; sourceTree = "<group>"; };
+		DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro3ViewController.swift; sourceTree = "<group>"; };
+		DB6465042174BE93000AC8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBDAECC221747BF700C114EF /* VisionEcho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionEcho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDAECC521747BF700C114EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBDAECC721747BF700C114EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBDAECCA21747BF700C114EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBDAECCD21747BF700C114EF /* VisionEcho.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VisionEcho.xcdatamodel; sourceTree = "<group>"; };
-		DBDAECCF21747BFA00C114EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBDAECD221747BFA00C114EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBDAECD421747BFA00C114EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBDAECD921747BFA00C114EF /* VisionEchoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionEchoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,10 +105,13 @@
 		DBDAECC421747BF700C114EF /* VisionEcho */ = {
 			isa = PBXGroup;
 			children = (
+				DB6465042174BE93000AC8E3 /* Assets.xcassets */,
 				DBDAECC521747BF700C114EF /* AppDelegate.swift */,
+				DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */,
+				DB6464E62174B421000AC8E3 /* FristViewController.swift */,
+				DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */,
 				DBDAECC721747BF700C114EF /* ViewController.swift */,
 				DBDAECC921747BF700C114EF /* Main.storyboard */,
-				DBDAECCF21747BFA00C114EF /* Assets.xcassets */,
 				DBDAECD121747BFA00C114EF /* LaunchScreen.storyboard */,
 				DBDAECD421747BFA00C114EF /* Info.plist */,
 				DBDAECCC21747BF700C114EF /* VisionEcho.xcdatamodeld */,
@@ -233,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBDAECD321747BFA00C114EF /* LaunchScreen.storyboard in Resources */,
-				DBDAECD021747BFA00C114EF /* Assets.xcassets in Resources */,
+				DB6465052174BE95000AC8E3 /* Assets.xcassets in Resources */,
 				DBDAECCB21747BF700C114EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBDAECC821747BF700C114EF /* ViewController.swift in Sources */,
+				DB6464F12174BAAF000AC8E3 /* Intro3ViewController.swift in Sources */,
 				DBDAECCE21747BF700C114EF /* VisionEcho.xcdatamodeld in Sources */,
 				DBDAECC621747BF700C114EF /* AppDelegate.swift in Sources */,
+				DB6464E72174B421000AC8E3 /* FristViewController.swift in Sources */,
+				DB6464EF2174B9B0000AC8E3 /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
