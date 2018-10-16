@@ -16,7 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //將 App 所有的 UINavigationBar 變透明
+//        let image = UIImage()
+//        UINavigationBar.appearance().setBackgroundImage(image, for: .default)
+//        UINavigationBar.appearance().shadowImage = image
+        
+        //改left right 按鍵
+//        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(named: "back")
+//        UINavigationBar.appearance().backIndicatorImage = UIImage(named: "back")
+        
         return true
     }
 

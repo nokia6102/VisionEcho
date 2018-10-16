@@ -122,7 +122,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9dR-qV-XJy"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nTo-3h-zje"/>
+                    <navigationItem key="navigationItem" id="nTo-3h-zje">
+                        <barButtonItem key="backBarButtonItem" title=" " id="dnS-1J-MYR"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f2n-5H-K8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -247,10 +249,10 @@
             </objects>
             <point key="canvasLocation" x="1546" y="601"/>
         </scene>
-        <!--View Controller-->
+        <!--Day30 View Controller-->
         <scene sceneID="4Rj-tz-Byd">
             <objects>
-                <viewController id="Sm2-Hp-VT4" sceneMemberID="viewController">
+                <viewController id="Sm2-Hp-VT4" customClass="Day30ViewController" customModule="VisionEcho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R6m-6F-n0A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -332,7 +334,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LOy-wi-UaZ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="O8j-Vs-rsA"/>
+                    <navigationItem key="navigationItem" id="O8j-Vs-rsA">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Uyg-dz-sdv"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fap-iS-gx5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

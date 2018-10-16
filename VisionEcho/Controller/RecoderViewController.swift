@@ -10,11 +10,12 @@ import UIKit
 
 class RecoderViewController: UIViewController {
     var enRecode = true
+
     @IBOutlet weak var btnRecode: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.setTabBarHidden(true, animated: true, duration: 1.5)
     }
     
     @IBAction func tapRecode(_ sender: UIButton)
@@ -23,7 +24,6 @@ class RecoderViewController: UIViewController {
         if( enRecode )
         {
             print("呼叫錄音")
-            btnRecode.alpha = 1.0
             UIView.animate(withDuration: 1.0) {
                 self.btnRecode.alpha = 0.05
             }
@@ -31,14 +31,19 @@ class RecoderViewController: UIViewController {
         else
         {
              print("關掉錄音")
-            btnRecode.alpha = 0.05
             UIView.animate(withDuration: 1.0) {
                 self.btnRecode.alpha = 1.0
             }
         }
-        print (enRecode)
         enRecode = !enRecode
-        print (enRecode)
+        
+        //檢查錄音檔
+        //recodeFileisExist
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+         self.setTabBarHidden(false, animated: animated, duration: 0.5)
     }
     /*
     // MARK: - Navigation
