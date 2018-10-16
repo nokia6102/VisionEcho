@@ -21,7 +21,6 @@ class RecoderViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.setTabBarHidden(true, animated: true, duration: 1.5)
     }
     
     @IBAction func tapRecode(_ sender: UIButton)
