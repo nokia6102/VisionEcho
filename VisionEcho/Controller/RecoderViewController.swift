@@ -13,6 +13,12 @@ class RecoderViewController: UIViewController {
 
     @IBOutlet weak var btnRecode: UIButton!
     
+    
+    override func viewDidAppear(_ animated: Bool)
+    {
+        self.setTabBarHidden(true, animated: animated, duration: 1.5)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setTabBarHidden(true, animated: true, duration: 1.5)
@@ -42,13 +48,10 @@ class RecoderViewController: UIViewController {
         
     }
     
-//    override func viewDidDisappear(_ animated: Bool) {
-//        self.setTabBarHidden(false, animated: true, duration: 0.5)
-//    }
-    
+
     
     override func viewWillDisappear(_ animated: Bool) {
-         self.setTabBarHidden(false, animated: true, duration: 0.5)
+         self.setTabBarHidden(false, animated: animated, duration: 0.5)
     }
     
     /*
