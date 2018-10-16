@@ -11,6 +11,7 @@
 		DB6464EF2174B9B0000AC8E3 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */; };
 		DB6464F12174BAAF000AC8E3 /* Intro3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */; };
 		DB6465052174BE95000AC8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6465042174BE93000AC8E3 /* Assets.xcassets */; };
+		DBC47D582175995800408CE9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC47D572175995800408CE9 /* CustomTabBar.swift */; };
 		DBDAECC621747BF700C114EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECC521747BF700C114EF /* AppDelegate.swift */; };
 		DBDAECC821747BF700C114EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECC721747BF700C114EF /* ViewController.swift */; };
 		DBDAECCB21747BF700C114EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDAECC921747BF700C114EF /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro3ViewController.swift; sourceTree = "<group>"; };
 		DB6465042174BE93000AC8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC47D572175995800408CE9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		DBDAECC221747BF700C114EF /* VisionEcho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionEcho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDAECC521747BF700C114EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBDAECC721747BF700C114EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				DBDAECD121747BFA00C114EF /* LaunchScreen.storyboard */,
 				DBDAECD421747BFA00C114EF /* Info.plist */,
 				DBDAECCC21747BF700C114EF /* VisionEcho.xcdatamodeld */,
+				DBC47D572175995800408CE9 /* CustomTabBar.swift */,
 			);
 			path = VisionEcho;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			files = (
 				DBDAECC821747BF700C114EF /* ViewController.swift in Sources */,
 				DB6464F12174BAAF000AC8E3 /* Intro3ViewController.swift in Sources */,
+				DBC47D582175995800408CE9 /* CustomTabBar.swift in Sources */,
 				DBDAECCE21747BF700C114EF /* VisionEcho.xcdatamodeld in Sources */,
 				DBDAECC621747BF700C114EF /* AppDelegate.swift in Sources */,
 				DB6464E72174B421000AC8E3 /* FristViewController.swift in Sources */,
