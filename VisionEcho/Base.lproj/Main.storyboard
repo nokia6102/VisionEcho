@@ -469,7 +469,7 @@
         <!--錄音-->
         <scene sceneID="zct-aU-LP2">
             <objects>
-                <viewController id="bix-mM-tKL" sceneMemberID="viewController">
+                <viewController id="bix-mM-tKL" customClass="RecoderViewController" customModule="VisionEcho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bWA-kB-feg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -482,6 +482,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="怒"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhz-FC-k3r">
+                                <rect key="frame" x="162" y="539" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Recoder_on"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cw3-kK-kUI">
+                                <rect key="frame" x="162" y="539" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Recoder_off"/>
+                                <connections>
+                                    <action selector="tapRecode:" destination="bix-mM-tKL" eventType="touchUpInside" id="IKa-Xj-NKZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -493,10 +506,13 @@
                         <viewLayoutGuide key="safeArea" id="Cx3-47-iHH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="錄音" image="TabBarICon1" id="h7J-YG-KDV"/>
+                    <connections>
+                        <outlet property="btnRecode" destination="Cw3-kK-kUI" id="8OC-TB-Lov"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Zo-6F-t0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3213" y="-1626"/>
+            <point key="canvasLocation" x="3211.594202898551" y="-1626.358695652174"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="P8d-QO-uSF">
@@ -520,7 +536,7 @@
         <!--錄音-->
         <scene sceneID="JCd-do-7QN">
             <objects>
-                <viewController id="ffB-ts-VN8" sceneMemberID="viewController">
+                <viewController id="ffB-ts-VN8" customClass="RecoderViewController" customModule="VisionEcho" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kVf-h7-HXd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -533,6 +549,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="喜"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMY-YZ-fC1">
+                                <rect key="frame" x="162" y="541" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Recoder_off"/>
+                                <connections>
+                                    <action selector="tapRecode:" destination="ffB-ts-VN8" eventType="touchUpInside" id="Cjt-Z8-34i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -544,6 +568,9 @@
                         <viewLayoutGuide key="safeArea" id="DEx-NM-0u7"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="錄音" image="TabBarICon1" id="Er3-cq-WC0"/>
+                    <connections>
+                        <outlet property="btnRecode" destination="LMY-YZ-fC1" id="qrH-tT-PaH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7r6-KV-yQX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -552,6 +579,8 @@
     </scenes>
     <resources>
         <image name="30天計畫頁" width="375" height="667"/>
+        <image name="Recoder_off" width="90" height="90"/>
+        <image name="Recoder_on" width="90" height="90"/>
         <image name="TabBarICon1" width="84" height="84"/>
         <image name="TabBarICon2" width="84" height="84"/>
         <image name="TabBarICon3" width="84" height="84"/>
