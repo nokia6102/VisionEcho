@@ -481,17 +481,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="怒"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhz-FC-k3r">
-                                <rect key="frame" x="162" y="539" width="90" height="90"/>
+                            <button opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhz-FC-k3r" userLabel="Button_on">
+                                <rect key="frame" x="160" y="550" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Recoder_on"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cw3-kK-kUI">
-                                <rect key="frame" x="162" y="539" width="90" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Recoder_off"/>
                                 <connections>
-                                    <action selector="tapRecode:" destination="bix-mM-tKL" eventType="touchUpInside" id="IKa-Xj-NKZ"/>
+                                    <action selector="tapRecode:" destination="bix-mM-tKL" eventType="touchUpInside" id="a46-RN-sqS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -506,7 +501,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="錄音" image="TabBarICon1" id="h7J-YG-KDV"/>
                     <connections>
-                        <outlet property="btnRecode" destination="Cw3-kK-kUI" id="8OC-TB-Lov"/>
+                        <outlet property="btnRecode" destination="Hhz-FC-k3r" id="wzl-Tg-aHH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Zo-6F-t0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -548,12 +543,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="喜"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMY-YZ-fC1">
-                                <rect key="frame" x="162" y="541" width="90" height="90"/>
+                            <button opaque="NO" alpha="0.30000001192092896" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNQ-Ov-Olq" userLabel="Button_on">
+                                <rect key="frame" x="160" y="550" width="90" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Recoder_off"/>
+                                <state key="normal" image="Recoder_on"/>
                                 <connections>
-                                    <action selector="tapRecode:" destination="ffB-ts-VN8" eventType="touchUpInside" id="Cjt-Z8-34i"/>
+                                    <action selector="tapRecode:" destination="ffB-ts-VN8" eventType="touchUpInside" id="cJ7-9F-9K5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -568,7 +563,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="錄音" image="TabBarICon1" id="Er3-cq-WC0"/>
                     <connections>
-                        <outlet property="btnRecode" destination="LMY-YZ-fC1" id="qrH-tT-PaH"/>
+                        <outlet property="btnRecode" destination="sNQ-Ov-Olq" id="CUL-in-RUw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7r6-KV-yQX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -578,7 +573,6 @@
     </scenes>
     <resources>
         <image name="30天計畫頁" width="375" height="667"/>
-        <image name="Recoder_off" width="90" height="90"/>
         <image name="Recoder_on" width="90" height="90"/>
         <image name="TabBarICon1" width="84" height="84"/>
         <image name="TabBarICon2" width="84" height="84"/>

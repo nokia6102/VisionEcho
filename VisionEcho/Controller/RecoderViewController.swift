@@ -25,14 +25,14 @@ class RecoderViewController: UIViewController {
         {
             print("呼叫錄音")
             UIView.animate(withDuration: 1.0) {
-                self.btnRecode.alpha = 0.05
+                self.btnRecode.alpha = 1.0
             }
         }
         else
         {
              print("關掉錄音")
             UIView.animate(withDuration: 1.0) {
-                self.btnRecode.alpha = 1.0
+                self.btnRecode.alpha = 0.3
             }
         }
         enRecode = !enRecode
@@ -42,9 +42,15 @@ class RecoderViewController: UIViewController {
         
     }
     
+//    override func viewDidDisappear(_ animated: Bool) {
+//        self.setTabBarHidden(false, animated: true, duration: 0.5)
+//    }
+    
+    
     override func viewWillDisappear(_ animated: Bool) {
-         self.setTabBarHidden(false, animated: animated, duration: 0.5)
+         self.setTabBarHidden(false, animated: true, duration: 0.5)
     }
+    
     /*
     // MARK: - Navigation
 

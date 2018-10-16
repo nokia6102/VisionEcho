@@ -16,8 +16,11 @@ class Day30ViewController: UIViewController {
         self.setTabBarHidden(true, animated: true, duration: 1.5)
     }
     
+//    override func viewDidDisappear(_ animated: Bool) {
+//         self.setTabBarHidden(false, animated: true, duration: 0.5)
+//    }
     override func viewWillDisappear(_ animated: Bool) {
-        self.setTabBarHidden(false, animated: animated, duration: 0.5)
+          self.setTabBarHidden(false, animated: true, duration: 0.5)
     }
 
     /*
