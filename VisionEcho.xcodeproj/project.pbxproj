@@ -86,6 +86,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DBC47D5B2176256100408CE9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */,
+				DB6464E62174B421000AC8E3 /* FristViewController.swift */,
+				DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */,
+				DBDAECC721747BF700C114EF /* ViewController.swift */,
+				DBC47D592176176F00408CE9 /* RecoderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBC47D5C2176257400408CE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBC47D572175995800408CE9 /* CustomTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DBDAECB921747BF700C114EF = {
 			isa = PBXGroup;
 			children = (
@@ -111,16 +131,12 @@
 			children = (
 				DB6465042174BE93000AC8E3 /* Assets.xcassets */,
 				DBDAECC521747BF700C114EF /* AppDelegate.swift */,
-				DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */,
-				DB6464E62174B421000AC8E3 /* FristViewController.swift */,
-				DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */,
-				DBDAECC721747BF700C114EF /* ViewController.swift */,
-				DBC47D592176176F00408CE9 /* RecoderViewController.swift */,
+				DBC47D5C2176257400408CE9 /* View */,
+				DBC47D5B2176256100408CE9 /* Controller */,
 				DBDAECC921747BF700C114EF /* Main.storyboard */,
 				DBDAECD121747BFA00C114EF /* LaunchScreen.storyboard */,
 				DBDAECD421747BFA00C114EF /* Info.plist */,
 				DBDAECCC21747BF700C114EF /* VisionEcho.xcdatamodeld */,
-				DBC47D572175995800408CE9 /* CustomTabBar.swift */,
 			);
 			path = VisionEcho;
 			sourceTree = "<group>";

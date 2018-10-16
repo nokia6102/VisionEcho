@@ -206,15 +206,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="height">
-                                <real key="value" value="80"/>
+                                <real key="value" value="78"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBar>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="height">
-                            <real key="value" value="90"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="Rnr-q9-ncb" kind="relationship" relationship="viewControllers" id="ebi-l7-jGX"/>
                         <segue destination="Lsf-0h-tJO" kind="relationship" relationship="viewControllers" id="MFB-zd-e3I"/>
