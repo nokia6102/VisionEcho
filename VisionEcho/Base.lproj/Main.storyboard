@@ -97,19 +97,19 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMe-U7-eZh">
-                                <rect key="frame" x="34" y="439" width="204" height="150"/>
+                                <rect key="frame" x="61" y="439" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="怒"/>
+                                <state key="normal" image="怒"/>
                                 <connections>
-                                    <segue destination="bix-mM-tKL" kind="show" id="iKb-an-mWC"/>
+                                    <segue destination="bix-mM-tKL" kind="show" id="ASB-hn-U8o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niC-s1-FRm">
-                                <rect key="frame" x="225" y="459" width="164" height="109"/>
+                                <rect key="frame" x="232" y="460" width="110" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="喜"/>
+                                <state key="normal" image="喜"/>
                                 <connections>
-                                    <segue destination="bix-mM-tKL" kind="show" id="PYF-E1-hY6"/>
+                                    <segue destination="ffB-ts-VN8" kind="show" id="gRE-tb-trT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -215,7 +215,7 @@
             </objects>
             <point key="canvasLocation" x="593" y="-173"/>
         </scene>
-        <!--設定-->
+        <!--View Controller-->
         <scene sceneID="pg0-Ut-w2O">
             <objects>
                 <viewController id="u8D-cZ-q2l" sceneMemberID="viewController">
@@ -236,7 +236,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TRS-Lg-UuY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="設定" image="TabBarICon3" id="STS-EQ-EQg"/>
+                    <tabBarItem key="tabBarItem" title="" image="TabBarICon3" id="STS-EQ-EQg">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VFH-4s-svy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -280,31 +282,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQh-KW-N9h">
-                                <rect key="frame" x="199" y="333" width="148" height="134"/>
+                                <rect key="frame" x="227" y="372" width="148" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="GTN-oP-uHD" kind="show" id="W56-kS-aT7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yAB-Lt-piE">
-                                <rect key="frame" x="29" y="333" width="148" height="134"/>
+                                <rect key="frame" x="29" y="372" width="148" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="r9w-9q-bwq" kind="show" id="Gx7-KU-MRs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ea8-SA-gU3" userLabel="靜心">
-                                <rect key="frame" x="29" y="475" width="148" height="134"/>
+                                <rect key="frame" x="29" y="532" width="148" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="iCe-Og-xHB" kind="show" id="7PY-DS-Jlc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dp-2e-f2p">
-                                <rect key="frame" x="199" y="463" width="148" height="146"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="2EI-wt-Cbu" kind="show" id="7wG-7e-7bd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djj-LX-HDZ">
@@ -312,6 +307,13 @@
                                 <state key="normal" image="btn_RightNow"/>
                                 <connections>
                                     <segue destination="Sm2-Hp-VT4" kind="show" id="nUG-HF-MLG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dp-2e-f2p">
+                                <rect key="frame" x="227" y="526" width="148" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="2EI-wt-Cbu" kind="show" id="7wG-7e-7bd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -357,13 +359,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gio-jQ-qQ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4081.1594202898555" y="-1020.6521739130436"/>
+            <point key="canvasLocation" x="4087" y="-965"/>
         </scene>
-        <!--主頁-->
+        <!--Navigation Controller-->
         <scene sceneID="Lan-xn-m0f">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lsf-0h-tJO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="主頁" image="TabBarICon2" id="dED-cQ-Q7a"/>
+                    <tabBarItem key="tabBarItem" title="" image="TabBarICon2" id="dED-cQ-Q7a">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jpd-vx-8TF">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
@@ -467,6 +471,11 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="錄音頁-2" translatesAutoresizingMaskIntoConstraints="NO" id="3mP-2y-fCf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l3J-WS-5Qe">
+                                <rect key="frame" x="132" y="165" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="怒"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -481,13 +490,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Zo-6F-t0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3226" y="-1395"/>
+            <point key="canvasLocation" x="3213" y="-1626"/>
         </scene>
-        <!--錄音-->
+        <!--Navigation Controller-->
         <scene sceneID="P8d-QO-uSF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rnr-q9-ncb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="錄音" image="TabBarICon1" id="cUl-G5-Drb"/>
+                    <tabBarItem key="tabBarItem" title="" image="TabBarICon1" id="cUl-G5-Drb">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="U3t-lb-huJ">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
@@ -501,6 +512,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4X-qq-7VM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1544.9275362318842" y="-888.58695652173924"/>
+        </scene>
+        <!--錄音-->
+        <scene sceneID="JCd-do-7QN">
+            <objects>
+                <viewController id="ffB-ts-VN8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kVf-h7-HXd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="錄音頁-2" translatesAutoresizingMaskIntoConstraints="NO" id="AvO-1k-WNo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4u-uL-pY2">
+                                <rect key="frame" x="152" y="187" width="110" height="109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="喜"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="DEx-NM-0u7" firstAttribute="trailing" secondItem="AvO-1k-WNo" secondAttribute="trailing" id="DcH-db-hR8"/>
+                            <constraint firstItem="DEx-NM-0u7" firstAttribute="bottom" secondItem="AvO-1k-WNo" secondAttribute="bottom" id="QUj-QA-lDH"/>
+                            <constraint firstItem="AvO-1k-WNo" firstAttribute="leading" secondItem="DEx-NM-0u7" secondAttribute="leading" id="bPo-8M-dTA"/>
+                            <constraint firstItem="AvO-1k-WNo" firstAttribute="top" secondItem="kVf-h7-HXd" secondAttribute="top" id="gTg-lv-wMp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DEx-NM-0u7"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="錄音" image="TabBarICon1" id="Er3-cq-WC0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7r6-KV-yQX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3212" y="-889"/>
         </scene>
     </scenes>
     <resources>
@@ -524,7 +567,4 @@
         <image name="音樂導引頁" width="375" height="667"/>
         <image name="首頁1" width="375" height="667"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="iKb-an-mWC"/>
-    </inferredMetricsTieBreakers>
 </document>
