@@ -31,10 +31,23 @@ class Day30ViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         
         cell.lblDay.text = "第\(Day30ViewController.intIntoString(number: indexPath.row+1))天"
         cell.btnCheck.setTitle("v", for: .normal)
+        
+        
+        if indexPath.row % 2 == 0 {
+            
+            let red1 = UIColor(red: 100.0/255.0, green: 130.0/255.0, blue: 230.0/255.0, alpha: 1.0)
+            cell.viewData.layer.backgroundColor = red1.cgColor
+        } else {
+            let red2 = UIColor(red: 255.0/255.0, green: 130.0/255.0, blue: 230.0/255.0, alpha: 1.0)
+            cell.viewData.layer.backgroundColor = red2.cgColor
+        }
+        
+        cell.selectionStyle = .none
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print (indexPath.row)
        
     }
     

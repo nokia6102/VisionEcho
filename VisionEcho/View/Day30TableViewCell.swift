@@ -11,6 +11,7 @@ import UIKit
 class Day30TableViewCell: UITableViewCell {
     @IBOutlet weak var lblDay: UILabel!
     @IBOutlet weak var btnCheck: UIButton!
+    @IBOutlet weak var viewData: UIView!
     
     
     override func awakeFromNib() {
