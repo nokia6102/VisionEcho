@@ -34,12 +34,9 @@ class Day30ViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         
         
         if indexPath.row % 2 == 0 {
-            
-            let red1 = UIColor(red: 100.0/255.0, green: 130.0/255.0, blue: 230.0/255.0, alpha: 1.0)
-            cell.viewData.layer.backgroundColor = red1.cgColor
+            cell.viewData.layer.backgroundColor =  #colorLiteral(red: 0.8823529412, green: 0.862745098, blue: 0.862745098, alpha: 1)
         } else {
-            let red2 = UIColor(red: 255.0/255.0, green: 130.0/255.0, blue: 230.0/255.0, alpha: 1.0)
-            cell.viewData.layer.backgroundColor = red2.cgColor
+            cell.viewData.layer.backgroundColor =  #colorLiteral(red: 0.7647058824, green: 0.7176470588, blue: 0.7176470588, alpha: 1)
         }
         
         cell.selectionStyle = .none
