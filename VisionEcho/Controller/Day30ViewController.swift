@@ -16,7 +16,10 @@ class Day30ViewController: UIViewController,UITableViewDelegate,UITableViewDataS
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+
     }
+    
     
     override func viewWillDisappear(_ animated: Bool) {
           self.setTabBarHidden(false, animated: animated, duration: 0.5)
@@ -30,14 +33,27 @@ class Day30ViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! Day30TableViewCell
         
         cell.lblDay.text = "第\(Day30ViewController.intIntoString(number: indexPath.row+1))天"
-        cell.btnCheck.setTitle("v", for: .normal)
-        
+      
+        let btnImage:UIImage?
+        let Days = 15
+        if indexPath.row <= Days-1
+        {
+            btnImage = UIImage(named: "Day30Check")
+        }
+        else
+        {
+            btnImage = UIImage(named: "Day30UnCheck")
+        }
         
         if indexPath.row % 2 == 0 {
             cell.viewData.layer.backgroundColor =  #colorLiteral(red: 0.8823529412, green: 0.862745098, blue: 0.862745098, alpha: 1)
+        
         } else {
             cell.viewData.layer.backgroundColor =  #colorLiteral(red: 0.7647058824, green: 0.7176470588, blue: 0.7176470588, alpha: 1)
         }
+        
+        
+        cell.btnCheck.setImage(btnImage , for: UIControl.State.normal)
         
         cell.selectionStyle = .none
         return cell
@@ -50,10 +66,6 @@ class Day30ViewController: UIViewController,UITableViewDelegate,UITableViewDataS
     
     static func intIntoString(number: Int) -> String
     {
-        
-        
-       // NSLocale *locale = [[NSLocale alloc] initWithLocaleIdentifier:@"zh_Hans"];
-     
         let locale : Locale = NSLocale(localeIdentifier: "zh_Hant") as Locale
          let formatter = NumberFormatter()
         formatter.locale = locale

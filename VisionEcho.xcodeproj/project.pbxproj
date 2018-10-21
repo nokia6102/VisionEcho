@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DB1F30342177732B007EE660 /* Day30TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F30332177732B007EE660 /* Day30TableViewCell.swift */; };
+		DB613CFF217B105600209BE1 /* Day1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB613CFE217B105600209BE1 /* Day1ViewController.swift */; };
+		DB613D01217C508400209BE1 /* CustomDay1Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB613D00217C508400209BE1 /* CustomDay1Button.swift */; };
+		DB613D03217C61B300209BE1 /* Day1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB613D02217C61B300209BE1 /* Day1TableViewCell.swift */; };
+		DB613D07217C699700209BE1 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB613D06217C699700209BE1 /* CustomTabBar.swift */; };
+		DB613D09217C728100209BE1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB613D08217C728100209BE1 /* MainViewController.swift */; };
 		DB6464E72174B421000AC8E3 /* FristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6464E62174B421000AC8E3 /* FristViewController.swift */; };
 		DB6464EF2174B9B0000AC8E3 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */; };
 		DB6464F12174BAAF000AC8E3 /* Intro3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */; };
 		DB6465052174BE95000AC8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6465042174BE93000AC8E3 /* Assets.xcassets */; };
-		DBC47D582175995800408CE9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC47D572175995800408CE9 /* CustomTabBar.swift */; };
 		DBC47D5A2176176F00408CE9 /* RecoderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC47D592176176F00408CE9 /* RecoderViewController.swift */; };
 		DBC47D5E21762E8400408CE9 /* Day30ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC47D5D21762E8400408CE9 /* Day30ViewController.swift */; };
 		DBDAECC621747BF700C114EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECC521747BF700C114EF /* AppDelegate.swift */; };
@@ -22,6 +26,8 @@
 		DBDAECD321747BFA00C114EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDAECD121747BFA00C114EF /* LaunchScreen.storyboard */; };
 		DBDAECDE21747BFA00C114EF /* VisionEchoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECDD21747BFA00C114EF /* VisionEchoTests.swift */; };
 		DBDAECE921747BFA00C114EF /* VisionEchoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDAECE821747BFA00C114EF /* VisionEchoUITests.swift */; };
+		DBF63EA2217ACA060095B804 /* MysetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF63EA1217ACA060095B804 /* MysetViewController.swift */; };
+		DBF63EA8217AE6480095B804 /* MyNaigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF63EA7217AE6480095B804 /* MyNaigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,11 +49,15 @@
 
 /* Begin PBXFileReference section */
 		DB1F30332177732B007EE660 /* Day30TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day30TableViewCell.swift; sourceTree = "<group>"; };
+		DB613CFE217B105600209BE1 /* Day1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1ViewController.swift; sourceTree = "<group>"; };
+		DB613D00217C508400209BE1 /* CustomDay1Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDay1Button.swift; sourceTree = "<group>"; };
+		DB613D02217C61B300209BE1 /* Day1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1TableViewCell.swift; sourceTree = "<group>"; };
+		DB613D06217C699700209BE1 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		DB613D08217C728100209BE1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DB6464E62174B421000AC8E3 /* FristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristViewController.swift; sourceTree = "<group>"; };
 		DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro3ViewController.swift; sourceTree = "<group>"; };
 		DB6465042174BE93000AC8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DBC47D572175995800408CE9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		DBC47D592176176F00408CE9 /* RecoderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoderViewController.swift; sourceTree = "<group>"; };
 		DBC47D5D21762E8400408CE9 /* Day30ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day30ViewController.swift; sourceTree = "<group>"; };
 		DBDAECC221747BF700C114EF /* VisionEcho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionEcho.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +73,8 @@
 		DBDAECE421747BFA00C114EF /* VisionEchoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionEchoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDAECE821747BFA00C114EF /* VisionEchoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionEchoUITests.swift; sourceTree = "<group>"; };
 		DBDAECEA21747BFA00C114EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF63EA1217ACA060095B804 /* MysetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysetViewController.swift; sourceTree = "<group>"; };
+		DBF63EA7217AE6480095B804 /* MyNaigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNaigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +107,13 @@
 			children = (
 				DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */,
 				DB6464E62174B421000AC8E3 /* FristViewController.swift */,
+				DB613D08217C728100209BE1 /* MainViewController.swift */,
 				DB6464F02174BAAF000AC8E3 /* Intro3ViewController.swift */,
 				DBDAECC721747BF700C114EF /* ViewController.swift */,
 				DBC47D592176176F00408CE9 /* RecoderViewController.swift */,
 				DBC47D5D21762E8400408CE9 /* Day30ViewController.swift */,
+				DB613CFE217B105600209BE1 /* Day1ViewController.swift */,
+				DBF63EA1217ACA060095B804 /* MysetViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -106,8 +121,11 @@
 		DBC47D5C2176257400408CE9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DBC47D572175995800408CE9 /* CustomTabBar.swift */,
 				DB1F30332177732B007EE660 /* Day30TableViewCell.swift */,
+				DB613D02217C61B300209BE1 /* Day1TableViewCell.swift */,
+				DBF63EA7217AE6480095B804 /* MyNaigationViewController.swift */,
+				DB613D00217C508400209BE1 /* CustomDay1Button.swift */,
+				DB613D06217C699700209BE1 /* CustomTabBar.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -298,12 +316,18 @@
 			files = (
 				DBDAECC821747BF700C114EF /* ViewController.swift in Sources */,
 				DB1F30342177732B007EE660 /* Day30TableViewCell.swift in Sources */,
+				DB613D03217C61B300209BE1 /* Day1TableViewCell.swift in Sources */,
 				DBC47D5E21762E8400408CE9 /* Day30ViewController.swift in Sources */,
+				DB613CFF217B105600209BE1 /* Day1ViewController.swift in Sources */,
 				DBC47D5A2176176F00408CE9 /* RecoderViewController.swift in Sources */,
 				DB6464F12174BAAF000AC8E3 /* Intro3ViewController.swift in Sources */,
-				DBC47D582175995800408CE9 /* CustomTabBar.swift in Sources */,
+				DB613D09217C728100209BE1 /* MainViewController.swift in Sources */,
+				DB613D01217C508400209BE1 /* CustomDay1Button.swift in Sources */,
+				DBF63EA2217ACA060095B804 /* MysetViewController.swift in Sources */,
 				DBDAECCE21747BF700C114EF /* VisionEcho.xcdatamodeld in Sources */,
+				DBF63EA8217AE6480095B804 /* MyNaigationViewController.swift in Sources */,
 				DBDAECC621747BF700C114EF /* AppDelegate.swift in Sources */,
+				DB613D07217C699700209BE1 /* CustomTabBar.swift in Sources */,
 				DB6464E72174B421000AC8E3 /* FristViewController.swift in Sources */,
 				DB6464EF2174B9B0000AC8E3 /* MyTabBarController.swift in Sources */,
 			);

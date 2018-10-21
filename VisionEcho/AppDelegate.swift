@@ -22,9 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        UINavigationBar.appearance().setBackgroundImage(image, for: .default)
 //        UINavigationBar.appearance().shadowImage = image
         
-        //改left right 按鍵
-//        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(named: "back")
-//        UINavigationBar.appearance().backIndicatorImage = UIImage(named: "back")
+       // 改left right 按鍵
+        UINavigationBar.appearance().backIndicatorTransitionMaskImage = UIImage(named: "back")
+        UINavigationBar.appearance().backIndicatorImage = UIImage(named: "back")
+     
         
         return true
     }
