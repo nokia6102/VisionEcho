@@ -31,14 +31,10 @@
                             <constraint firstItem="NHk-Ig-SyD" firstAttribute="bottom" secondItem="pLb-vq-y7f" secondAttribute="bottom" id="rEY-WG-yUX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NHk-Ig-SyD"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="W1a-Qm-zmw" appends="YES" id="oM8-56-NhY"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="zMY-PS-yLe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tnR-H1-tiT" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer cancelsTouchesInView="NO" delaysTouchesBegan="YES" direction="left" id="W1a-Qm-zmw"/>
             </objects>
             <point key="canvasLocation" x="-1271.2" y="-870.31484257871068"/>
         </scene>
@@ -53,9 +49,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="導引3" translatesAutoresizingMaskIntoConstraints="NO" id="A0a-uj-8MW">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="XBP-h4-Fgo" appends="YES" id="HFO-3L-RLh"/>
-                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,14 +60,9 @@
                             <constraint firstItem="A0a-uj-8MW" firstAttribute="top" secondItem="1QV-bB-CLV" secondAttribute="top" id="hdg-90-TLD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Dj-vP-wCU"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="XPY-Z6-w79" appends="YES" id="mUf-Ho-JXc"/>
-                        </connections>
                     </view>
                 </viewController>
-                <swipeGestureRecognizer direction="left" id="XPY-Z6-w79"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TxU-Cf-BOs" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer cancelsTouchesInView="NO" delaysTouchesBegan="YES" direction="right" id="XBP-h4-Fgo"/>
             </objects>
             <point key="canvasLocation" x="-346.39999999999998" y="-870.31484257871068"/>
         </scene>
@@ -144,12 +132,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ISE-Cj-3sM"/>
                     </view>
-                </viewController>
-                <swipeGestureRecognizer cancelsTouchesInView="NO" delaysTouchesBegan="YES" direction="left" id="u3e-az-YoU">
                     <connections>
-                        <segue destination="eqV-Nw-OFa" kind="presentation" identifier="goToMain" id="Fcx-st-3Vn"/>
+                        <segue destination="eqV-Nw-OFa" kind="show" identifier="goToMain" id="HmB-R2-GeR"/>
                     </connections>
-                </swipeGestureRecognizer>
+                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fYb-No-h4c" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="592.79999999999995" y="-870.31484257871068"/>
@@ -175,14 +161,10 @@
                             <constraint firstItem="XTd-CJ-NiZ" firstAttribute="top" secondItem="zP3-h4-Aoe" secondAttribute="top" id="wer-Li-mTM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2el-oI-vV1"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="hHU-vE-8XU" appends="YES" id="ZCu-kk-18u"/>
-                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="Dcu-4Y-Bby"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L4i-qj-a0f" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer cancelsTouchesInView="NO" delaysTouchesBegan="YES" direction="left" id="hHU-vE-8XU"/>
             </objects>
             <point key="canvasLocation" x="-2092" y="-870.31484257871068"/>
         </scene>

@@ -49,6 +49,7 @@ extension ViewController1: PageViewControllerDelegate {
     ///   - pageIndex: _
     func pageViewController(_ pageViewController: PageViewController, didUpdatePageIndex pageIndex: Int) {
         self.pageControl.currentPage = pageIndex
+      
     }
 
     
