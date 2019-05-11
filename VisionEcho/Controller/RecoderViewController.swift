@@ -17,7 +17,7 @@ class RecoderViewController: UIViewController {
     var lastestDay: Int = 0
     
     @IBOutlet weak var btnRecode: UIButton!
-    
+    var timer :Timer?
     
     override func viewDidAppear(_ animated: Bool)
     {
@@ -130,6 +130,25 @@ func play()
             }
         }
     }
+
+    @objc func animationRecoder()
+    {
+//        UIView.animate(withDuration: 1.0, animations: {
+//            self.btnRecode.alpha = 0.5
+//        }) { (Bool) in
+//            self.btnRecode.alpha = 1.0
+//        }
+        UIView.animate(withDuration: 1.0, animations: {
+            self.btnRecode.alpha = 0.5
+        }) {(Bool) in
+                    UIView.animate(withDuration: 1.0, animations: {
+                        self.btnRecode.alpha = 1.0
+                    }) { (Bool) in
+                        self.btnRecode.alpha = 0.5
+                    }
+            }
+        
+    }
     
 func recoder()
     {
@@ -145,6 +164,11 @@ func recoder()
                 audioRecorder = try AVAudioRecorder(url: destinationUrl, settings: settings)
                 audioRecorder.record()
                   print("正在錄音...")
+                
+                timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(animationRecoder), userInfo: nil, repeats: true)
+                
+               
+                
             } catch {
                 print("Record error:", error.localizedDescription)
             }
@@ -153,7 +177,13 @@ func recoder()
     
 func stop()
     {
+        if self.timer != nil {
+            self.timer?.invalidate()
+            print("Close Timer")
+        }
+        
         print("關掉錄音")
+        
         audioRecorder.stop()
         audioRecorder = nil
     }
