@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7E1C072286C352004D1117 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E1C062286C351004D1117 /* ViewController1.swift */; };
+		CE7E1C0B2286C3CD004D1117 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7E1C0A2286C3CD004D1117 /* PageViewController.swift */; };
 		DB1F30342177732B007EE660 /* Day30TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1F30332177732B007EE660 /* Day30TableViewCell.swift */; };
 		DB613CFF217B105600209BE1 /* Day1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB613CFE217B105600209BE1 /* Day1ViewController.swift */; };
 		DB613D01217C508400209BE1 /* CustomDay1Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB613D00217C508400209BE1 /* CustomDay1Button.swift */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE7E1C062286C351004D1117 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		CE7E1C0A2286C3CD004D1117 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		DB1F30332177732B007EE660 /* Day30TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day30TableViewCell.swift; sourceTree = "<group>"; };
 		DB613CFE217B105600209BE1 /* Day1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day1ViewController.swift; sourceTree = "<group>"; };
 		DB613D00217C508400209BE1 /* CustomDay1Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDay1Button.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 		DBC47D5B2176256100408CE9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CE7E1C0A2286C3CD004D1117 /* PageViewController.swift */,
+				CE7E1C062286C351004D1117 /* ViewController1.swift */,
 				DB6464EE2174B9B0000AC8E3 /* MyTabBarController.swift */,
 				DB6464E62174B421000AC8E3 /* FristViewController.swift */,
 				DB613D08217C728100209BE1 /* MainViewController.swift */,
@@ -319,6 +325,7 @@
 				DB613D03217C61B300209BE1 /* Day1TableViewCell.swift in Sources */,
 				DBC47D5E21762E8400408CE9 /* Day30ViewController.swift in Sources */,
 				DB613CFF217B105600209BE1 /* Day1ViewController.swift in Sources */,
+				CE7E1C072286C352004D1117 /* ViewController1.swift in Sources */,
 				DBC47D5A2176176F00408CE9 /* RecoderViewController.swift in Sources */,
 				DB6464F12174BAAF000AC8E3 /* Intro3ViewController.swift in Sources */,
 				DB613D09217C728100209BE1 /* MainViewController.swift in Sources */,
@@ -328,6 +335,7 @@
 				DBF63EA8217AE6480095B804 /* MyNaigationViewController.swift in Sources */,
 				DBDAECC621747BF700C114EF /* AppDelegate.swift in Sources */,
 				DB613D07217C699700209BE1 /* CustomTabBar.swift in Sources */,
+				CE7E1C0B2286C3CD004D1117 /* PageViewController.swift in Sources */,
 				DB6464E72174B421000AC8E3 /* FristViewController.swift in Sources */,
 				DB6464EF2174B9B0000AC8E3 /* MyTabBarController.swift in Sources */,
 			);
@@ -506,7 +514,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YT6YT5Z5FB;
+				DEVELOPMENT_TEAM = A4KC5U64GT;
 				INFOPLIST_FILE = VisionEcho/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,7 +534,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YT6YT5Z5FB;
+				DEVELOPMENT_TEAM = A4KC5U64GT;
 				INFOPLIST_FILE = VisionEcho/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
