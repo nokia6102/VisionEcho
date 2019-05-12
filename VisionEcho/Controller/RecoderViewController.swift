@@ -138,10 +138,10 @@ func play()
 //        }) { (Bool) in
 //            self.btnRecode.alpha = 1.0
 //        }
-        UIView.animate(withDuration: 1.0, animations: {
+        UIView.animate(withDuration: 0.5, animations: {
             self.btnRecode.alpha = 0.5
         }) {(Bool) in
-                    UIView.animate(withDuration: 1.0, animations: {
+                    UIView.animate(withDuration: 0.5, animations: {
                         self.btnRecode.alpha = 1.0
                     }) { (Bool) in
                         self.btnRecode.alpha = 0.5
